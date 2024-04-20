@@ -1,0 +1,190 @@
+/*
+Theme Name: Astra Child
+Theme URI: https://wpastra.com/
+Template: astra
+Author: Brainstorm Force
+Author URI: https://wpastra.com/about/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme
+Description: Astra is fast, fully customizable &amp; beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL &amp; Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!
+Tags: custom-menu,custom-logo,entertainment,one-column,two-columns,left-sidebar,e-commerce,right-sidebar,custom-colors,editor-style,featured-images,full-width-template,microformats,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready,blog
+Version: 4.6.0.1704367144
+Updated: 2024-01-04 11:19:04
+*/
+
+/* Tout le site */
+body {
+    background-color: #ffffff !important;
+    font-family: Syne;
+}
+
+/* Toutes pages logo header */
+#logo-nav {
+    width: 201px;
+    height: 19px;
+}
+
+/* Toutes pages bouton COMMANDER header */
+#btn-commander-nav {
+    width: 100%;
+    float: right;
+    height: 80px;
+    margin-right: -10px;
+}
+
+.img-fruits {
+    width: 393px;
+    height: 262px;
+}
+
+/* Page NOUS RENCOONTRER bouton COMMANDER */
+#btn-commander {
+    height: 55px;
+    width: 198px;
+}
+
+
+/* Page Nous rencontrer Formulaire */
+#field_qh4icy2_label, #field_lewpv2_label, #field_tzqg6_label {
+    font-family: Syne;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
+
+#field_qh4icy2, #field_lewpv2 {
+    width: 383px;
+    height: 71px;
+    border-radius: 7px;
+    border-color: #ffffff;
+    background-color: #ffffff;
+}
+
+#field_tzqg6 {
+        width: 383px;
+        height: 237px;
+        border-radius: 7px;
+        border-color: #ffffff;
+        background-color: #ffffff;
+    }
+
+/* Page COMMANDER placeholder blanc */
+.placeholder-commande {
+    width: 50px !important;
+    height: 56px;
+    border-radius: 0;
+    border: none;
+    color: #000000;
+    background-color: #ffffff;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Page COMMANDER Formulaire */
+.container {
+    width: 860px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.form-container {
+    background-color: #3B8E46;
+    width: 100% !important;
+}
+
+.form-container h2 {
+    font-family: Syne;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    font-family: Syne;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.form-container input[type="text"] {
+    width: 383px !important;
+    height: 71px !important;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 25px !important;
+}
+
+.form-container hr {
+    background-color: #ffffff;
+    width: 1px;
+    height: 500px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin: auto !important;
+    margin-top: 25px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 198px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: #E0B9B4;
+    border-color: transparent;
+    margin: auto !important;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Syne;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 70px !important;
+}
+
+button[type="submit"]:hover {
+    background-color: #D2776A;
+}
+
+/* Responsive TABLETTE */
+@media (max-width: 920px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+    .form-container {
+        width: 100%;
+    }
+    .form-container input[type="text"] {
+        width: 320px !important;
+    }
+    .form-container hr {
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+    }
+    button[type="submit"] {
+        width: 100%;
+    }
+}
+
+/* Responsive MOBILE */
+@media only screen and (min-width: 320px) and (max-width: 791px) {
+    .e-con-inner {
+        flex-direction: column;
+    }
+    .container {
+        display: block;
+    }
+    .form-container hr {
+        display: none;
+    }
+}
